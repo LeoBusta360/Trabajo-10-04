@@ -1,0 +1,55 @@
+*{
+    background-color: aquamarine;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    height: 100vh;
+    background-color: red;
+    margin: 50px;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    justify-content: flex-end;
+    align-items: center;
+
+    
+
+}
+
+.caja{
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    
+
+
+}
+
+#caja1 {
+    order: 4;
+    flex-grow: 0;
+
+}
+#caja2 {
+    order: 3;
+    
+}
+#caja3 {
+    order: 2;
+    
+}
+#caja4 {
+    order: 1;
+    
+}
+#caja5 {
+    order: -1;
+    
+}
